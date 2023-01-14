@@ -251,5 +251,140 @@ main{
     padding-top: 20px;
 
 }
+.hide{
+    display: none;
+}
+@media  screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav{
+      flex-direction: column;
+      padding:10px 20px;
+    }
+    .nav-title{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .Banner-title{
+       
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .btn, .btn1{
+        font-weight: 700;
+        font-size: 18px;
+       
+       margin-bottom: 10px;
+        padding: 10px 20px;
+        
+    
+    }
+    .About-me{
+        margin: 10px;
+        padding: 20px;
+    }
+    .about-info-con{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .What-I_Do{
+        margin: 10px;
+        padding: 20px;
+    }
+    .sec-title{
+        margin: 20px 100px 30px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+   .con,.Banner, .skills-cin{
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    .footer-sec{
+        flex-direction: column;
+        margin:  10px 20px;
+       
+        
+    }
+    .lets-connect{
+       
+        padding: 20px;
+        
+    }
+    .connect-des{
+        font-weight: 400;
+        font-size: 16px;
+        
+        width: 300px;
+    
+    }
+    .lets-msg-me{
+        
+        padding:20px;
+    }
+    .IMG{
+        width: 300px;
+        height: 400px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    
+}
+@media  screen and (min-width:577px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+        padding:10px 20px;
+      }
+      .nav-title{
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+.skills-cin, .about-info-con{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-sec{
+    flex-direction: column;
+    margin:  10px 20px;
+   
+    
+}
+.lets-connect{
+    margin: 20px 100px;
+    padding:10px 100px;
+    
+}
+.lets-msg-me{
+    margin: 20px 100px;
+    padding:10px 100px;
+}
+.Banner{
+    flex-direction: column;
+
+}
+.IMG{
+    width: 400px;
+    height: 500px;
+    
+    
+}
+
+    
+}
 
 
